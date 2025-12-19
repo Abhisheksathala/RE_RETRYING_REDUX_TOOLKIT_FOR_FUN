@@ -10,6 +10,7 @@ export const BurggerReducer = (state = BurgerInitial, action) => {
       return {
         ...state,
         Brgger_base: state.Brgger_base - 1,
+        // Brgger_base: state.Brgger_base - action.number,
       };
     default:
       return state;
