@@ -1,0 +1,1 @@
+export const BURGGER_ORDER = 'BURGGER_ORDER';
