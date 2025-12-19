@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
-import { combineReducers } from 'redux';
+// import { combineReducers } from 'redux';
 import { thunk } from 'redux-thunk';
 import axios from 'axios';
 const applymiddleware = applyMiddleware;

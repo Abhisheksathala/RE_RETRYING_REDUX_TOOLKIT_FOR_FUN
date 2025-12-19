@@ -1,11 +1,16 @@
 import React from 'react';
+import PizzaBox from './components/PizzaBox';
+import { Provider } from 'react-redux';
+import Store from './components/redux/store';
 
 const App = () => {
-  const PIZZA = {
-    type: 'ORDER_PIZZA',
-    SHOPE_NAME: 'PIZZA SHOP',
-  };
-  return <div>{PIZZA.type}</div>;
+  return (
+    <div>
+      <Provider store={Store}>
+        <PizzaBox />
+      </Provider>
+    </div>
+  );
 };
 
 export default App;
