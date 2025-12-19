@@ -8,20 +8,20 @@ const BurggerBox = (props) => {
       {' '}
       <h2>Number of Burgger - {props.Brgger_base}</h2>
       <h1>
-        <button onClick={props.Brgger_base}>Order pizza</button>
+        <button onClick={props.orderBurger}>Order pizza</button>
       </h1>
     </div>
   );
 };
 const mapStateToProps = (state) => {
   return {
-    Brgger_base: state.Brgger_base,
+    Brgger_base: state.burger.Brgger_base,
   };
 };
 
 const mapDispatchToprops = (dispatch) => {
   return {
-    orderPizza: () => dispatch(OrderBurgger()),
+    orderBurger: () => dispatch(OrderBurgger()),
   };
 };
 

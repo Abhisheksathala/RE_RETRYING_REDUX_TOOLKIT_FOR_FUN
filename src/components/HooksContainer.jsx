@@ -3,8 +3,7 @@ import { OrderPizza } from './redux';
 import { useSelector, useDispatch } from 'react-redux';
 
 const HooksContainer = () => {
-  const pizzaBase = useSelector((state) => state.pizzaBase);
-  console.log(pizzaBase);
+  const pizzaBase = useSelector((state) => state.pizza.pizzaBase);
   const dishpatch = useDispatch();
 
   return (

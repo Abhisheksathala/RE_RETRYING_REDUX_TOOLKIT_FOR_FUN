@@ -9,9 +9,9 @@ const App = () => {
   return (
     <div>
       <Provider store={Store}>
-        {/* <PizzaBox /> */}
-        <HooksContainer />
+        <PizzaBox />
         <BurggerBox />
+        {/* <HooksContainer /> */}
       </Provider>
     </div>
   );
