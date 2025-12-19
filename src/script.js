@@ -4,7 +4,7 @@ import { createStore } from 'redux';
 const ORDER_PIZZA = 'ORDER_PIZZA';
 
 // ACTION CREATOR
-function orderPizza() {
+function OrderPizza() {
   return {
     type: ORDER_PIZZA,
     shopName: 'PIZZA SHOP',
