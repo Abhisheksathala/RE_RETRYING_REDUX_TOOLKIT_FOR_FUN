@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
-import pizzaReducer from '../features/pizza/pizzaSlice.js';
 import reduxLogger from 'redux-logger';
+import pizzaReducer from '../features/pizza/pizzaSlice.js';
+import productReducer from './../features/products.js';
 
 const logger = reduxLogger.createLogger({
   collapsed: true, // Collapse logs by default
@@ -10,6 +11,7 @@ const logger = reduxLogger.createLogger({
 const store = configureStore({
   reducer: {
     pizza: pizzaReducer,
+    product: productReducer,
   },
   middleware: (getDefaultMiddleware) => {
     return getDefaultMiddleware().concat(logger);
