@@ -6,3 +6,5 @@ export const rootReducer = combineReducers({
   pizza: PizzaReducer,
   burger: BurggerReducer,
 });
+
+// completed the redux

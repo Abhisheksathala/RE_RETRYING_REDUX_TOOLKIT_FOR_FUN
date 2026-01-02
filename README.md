@@ -16,3 +16,12 @@ Note: This will impact Vite dev & build performances.
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+<!--
+ -->
+
+// import useSelector from "react-redux"
+
+// useSelector((state)=>{console.log(state)})
+// we use dispatch and all
+// by state.pizza.pizzaBase so now it will be donr

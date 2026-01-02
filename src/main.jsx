@@ -16,3 +16,5 @@ createRoot(document.getElementById('root')).render(
 // import useSelector from "react-redux"
 
 // useSelector((state)=>{console.log(state)})
+// we use dispatch and all
+// by state.pizza.pizzaBase so now it will be donr
